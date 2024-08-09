@@ -1,0 +1,28 @@
+{
+    "primary_key": "Patient_id",
+    "columns": {
+        "Patient_id": { 
+            "sdtype": "id",
+            "regex_format": "U_[0-9]{3}"
+        },
+        "Glucose": {
+            "sdtype": "numerical",
+            "computer_representation": "Int64"
+        },
+        "BloodPressure": {
+            "sdtype": "numerical",
+            "computer_representation": "Int64"
+        },
+        "Insulin": {
+            "sdtype": "numerical",
+            "computer_representation": "Int64"
+        },
+        "Age": {
+            "sdtype": "numerical",
+            "computer_representation": "Int64"
+        },
+        "Outcome": {
+            "sdtype": "categorical"
+        }
+    }
+}

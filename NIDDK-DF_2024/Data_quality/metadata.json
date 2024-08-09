@@ -1,0 +1,67 @@
+{
+    "primary_key": "Patient_id",
+    "columns": {
+        "Patient_id": { 
+            "sdtype": "id",
+            "regex_format": "U_[0-9]{3}"
+        },
+        "cholesterol": {
+            "sdtype": "numerical",
+            "computer_representation": "Int64"
+        },
+        "glucose": {
+            "sdtype": "numerical",
+            "computer_representation": "Int64"
+        },
+        "hdl_chol": {
+            "sdtype": "numerical",
+            "computer_representation": "Int64"
+        },
+        "chol_hdl_ratio": {
+            "sdtype": "numerical",
+            "computer_representation": "Float"
+        },
+        "age": {
+            "sdtype": "numerical",
+            "computer_representation": "Int64"
+        },
+        "gender": {
+            "sdtype": "categorical"
+        },
+        "height": {
+            "sdtype": "numerical",
+            "computer_representation": "Int64"
+        },
+        "weight": {
+            "sdtype": "numerical",
+            "computer_representation": "Int64"
+        }, 
+        "bmi": {
+            "sdtype": "numerical",
+            "computer_representation": "Float"
+        },
+        "systolic_bp": {
+            "sdtype": "numerical",
+            "computer_representation": "Int64"
+        },        
+        "diastolic_bp": {
+            "sdtype": "numerical",
+            "computer_representation": "Int64"
+        },        
+        "waist": {
+            "sdtype": "numerical",
+            "computer_representation": "Int64"
+        },
+        "hip": {
+            "sdtype": "numerical",
+            "computer_representation": "Int64"
+        },
+        "waist_hip_ratio": {
+            "sdtype": "numerical",
+            "computer_representation": "Float"
+        },
+        "Outcome": {
+            "sdtype": "categorical"
+        }
+    }
+}
